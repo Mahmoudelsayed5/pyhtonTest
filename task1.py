@@ -1,10 +1,10 @@
 from tkinter import *
-import datetime
+from datetime import datetime
 
-date = datetime.year
+date = datetime.now().year
 
 def year_calculation() :
-    x = entry1.get()
+    x = int(entry1.get())
     output = int(date - X)
     
 
