@@ -5,7 +5,7 @@ date = datetime.now().year
 
 def year_calculation() :
     x = int(entry1.get())
-    output = int(date - X)
+    output = int(date) - X
     
 
 window = Tk()
