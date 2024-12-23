@@ -1,7 +1,7 @@
 from tkinter import *
 import datetime
 
-date = datetime.today().year
+date = datetime.year
 
 def year_calculation() :
     x = entry1.get()
