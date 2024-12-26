@@ -14,6 +14,8 @@ def check() :
             window.destroy()
             final2.second_page()
             
+def remove():
+    window.destroy()
 
 def close():
     window.destroy()
@@ -41,7 +43,10 @@ def main_page():
     button1.place(x=300, y=300)
 
     button2 = Button(window, text='Close', command=close, bg='LightSteelBlue3', font=('SansSerif',15))
-    button2.place(x=380, y=350)
+    button2.place(x=465, y=350)
+
+    button3 = Button(window, text='Remove brand', command=remove, bg='LightSteelBlue3', font=('SansSerif',15))
+    button3.place(x=300, y=350)
 
     window.mainloop()
 
